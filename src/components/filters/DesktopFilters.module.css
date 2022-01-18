@@ -1,0 +1,37 @@
+.filters {
+  display: none;
+  gap: 1rem;
+}
+
+.filters div span {
+  opacity: 0.6;
+  margin-right: 1rem;
+}
+
+.filters div p {
+  text-transform: uppercase;
+}
+
+.filters div p,
+.filters div span {
+  font-size: 1.3rem;
+  pointer-events: none;
+}
+
+.filters div {
+  padding: 1rem 1.5rem;
+  border: 1px solid grey;
+  color: #fff;
+}
+
+.filters div:hover,
+.filters div:active,
+.filters div::selection {
+  background-color: #5614b8;
+}
+
+@media screen and (min-width: 1024px) {
+  .filters {
+    display: grid;
+  }
+}

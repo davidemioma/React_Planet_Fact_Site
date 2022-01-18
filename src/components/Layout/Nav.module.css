@@ -1,0 +1,43 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem;
+  border-bottom: 0.2px solid grey;
+}
+
+.nav h1 {
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.nav ul {
+  display: none;
+  gap: 1rem 1.5rem;
+  list-style: none;
+}
+
+.nav a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  opacity: 0.8;
+}
+
+.nav a:hover,
+.nav a:active,
+.nav a.active {
+  color: #5614b8;
+}
+
+@media screen and (min-width: 1024px) {
+  .nav ul {
+    display: flex;
+  }
+
+  .nav img {
+    display: none;
+  }
+}

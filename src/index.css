@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+body {
+  margin: 0;
+  background: url(./assets/images/background-stars.svg);
+  background-color: #07011f;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 1024px) {
+  .container {
+    width: 80%;
+  }
+}

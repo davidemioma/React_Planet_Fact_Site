@@ -1,0 +1,46 @@
+.info {
+  display: grid;
+  gap: 1rem 3rem;
+  margin-bottom: 3rem;
+}
+
+.info div {
+  color: #fff;
+  padding: 1rem 1.5rem;
+  border: 1px solid grey;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.info div span {
+  text-transform: uppercase;
+  opacity: 0.6;
+  font-size: 0.7rem;
+}
+
+.info div p {
+  text-transform: capitalize;
+}
+
+@media screen and (min-width: 768px) {
+  .info {
+    grid-template-columns: repeat(4, 1fr);
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .info div {
+    display: grid;
+  }
+
+  .info div p {
+    font-size: 1.6rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .info {
+    width: 80%;
+  }
+}

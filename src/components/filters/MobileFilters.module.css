@@ -1,0 +1,27 @@
+.filters {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.5rem;
+  border-bottom: 0.2px solid grey;
+}
+
+.filters span {
+  color: #fff;
+  opacity: 0.6;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+
+.filters span:hover,
+.filters span:active,
+.filters span::selection {
+  opacity: 1;
+  color: #5614b8;
+}
+
+@media screen and (min-width: 1024px) {
+  .filters {
+    display: none;
+  }
+}
