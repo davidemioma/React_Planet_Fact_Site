@@ -1,5 +1,4 @@
 import classes from "./Modal.module.css";
-import img from "../../assets/images/icon-close.svg";
 import { Link } from "react-router-dom";
 
 function Modal(props) {
@@ -9,7 +8,11 @@ function Modal(props) {
 
   return (
     <div className={classes.modal}>
-      <img onClick={onClickHandler} src={img} alt="" />
+      <img
+        onClick={onClickHandler}
+        src={"/static/images/icon-close.svg"}
+        alt=""
+      />
 
       <ul>
         <li>

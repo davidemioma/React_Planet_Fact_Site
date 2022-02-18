@@ -61,7 +61,7 @@ function OtherPlanets() {
 
             <span className={classes.link}>
               <span>Source:</span>
-              <a target="_blank" href={planetLink}>
+              <a rel="noreferrer" target="_blank" href={planetLink}>
                 wikipedia
               </a>
             </span>

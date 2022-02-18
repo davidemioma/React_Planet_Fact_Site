@@ -1,5 +1,4 @@
 import classes from "./Nav.module.css";
-import img from "../../assets/images/icon-hamburger.svg";
 import { NavLink } from "react-router-dom";
 
 function Nav(props) {
@@ -85,7 +84,11 @@ function Nav(props) {
         </li>
       </ul>
 
-      <img onClick={onClickHandler} src={img} alt="" />
+      <img
+        onClick={onClickHandler}
+        src={"/static/images/icon-hamburger.svg"}
+        alt=""
+      />
     </nav>
   );
 }

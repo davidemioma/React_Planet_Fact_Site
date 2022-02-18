@@ -10,7 +10,7 @@ html {
 
 body {
   margin: 0;
-  background: url(./assets/images/background-stars.svg);
+  background: url(./components/assets/background-stars.svg);
   background-color: #07011f;
   background-size: cover;
   min-height: 100vh;
