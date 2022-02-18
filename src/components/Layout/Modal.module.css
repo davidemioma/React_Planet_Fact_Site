@@ -12,6 +12,7 @@
 
 .modal img {
   margin-left: 90%;
+  cursor: pointer;
 }
 
 .modal ul {

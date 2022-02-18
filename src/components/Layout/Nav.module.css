@@ -6,6 +6,10 @@
   border-bottom: 0.2px solid grey;
 }
 
+.nav img {
+  cursor: pointer;
+}
+
 .nav h1 {
   font-size: 1.6rem;
   text-transform: uppercase;
