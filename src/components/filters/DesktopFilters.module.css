@@ -14,12 +14,12 @@
 
 .filters div p,
 .filters div span {
-  font-size: 1.3rem;
+  font-size: 0.8rem;
   pointer-events: none;
 }
 
 .filters div {
-  padding: 1rem 1.5rem;
+  padding: 0.8rem 1rem;
   border: 1px solid grey;
   color: #fff;
   cursor: pointer;
