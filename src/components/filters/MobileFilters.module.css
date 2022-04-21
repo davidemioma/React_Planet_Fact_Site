@@ -16,7 +16,8 @@
 
 .filters span:hover,
 .filters span:active,
-.filters span::selection {
+.filters span::selection,
+.filters .active {
   opacity: 1;
   color: #5614b8;
 }

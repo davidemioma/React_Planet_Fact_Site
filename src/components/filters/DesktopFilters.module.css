@@ -27,7 +27,8 @@
 
 .filters div:hover,
 .filters div:active,
-.filters div::selection {
+.filters div::selection,
+.filters .active {
   background-color: #5614b8;
 }
 
